@@ -1,0 +1,44 @@
+.review-btn{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-btn button{
+    height: 50px;
+    width: 115px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(255, 152, 152, 1) 0%, rgba(128, 84, 255, 1) 100%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+
+.review-p{
+    margin-top: 30px;
+}
+
+.review-p p{
+    color: white;
+    font-size: 20px;
+}
+
+.slider1 {
+    width: 80%; /* Adjust as needed for video width */
+    max-width: 1200px; /* Limit the max width */
+    margin: auto;
+}
+
+.slider1 video {
+    width: 100%;
+    height: auto; /* Ensures the video maintains its aspect ratio */
+    display: block; /* Removes unwanted margins */
+}
+
+.review-p {
+    margin-bottom: 40px;
+}
